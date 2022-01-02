@@ -23,14 +23,16 @@ email: k21032565@kcl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   This is a group project done by Chenkai Fang, Mengxin Lai, Zhuoqun Yang and Ruowei Zou
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://example-jekyll-deploy-chenkai.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
 plugins:
   - jekyll-feed
+
 collections:
-  - exhibits
+  exhibits:
+    output: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
