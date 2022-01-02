@@ -14,5 +14,8 @@ layout: index
       <p>{{ exhibit.tags }}</p>
     </div>
 {% endfor %}
+  <div id = "">
+            <p>Creat by Chenkai, Zhuoqun, Mengxin, Ruowei</p>
+  </div>
 </div>
 

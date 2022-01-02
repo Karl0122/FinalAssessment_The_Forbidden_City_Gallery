@@ -19,11 +19,12 @@
         <div id = "content">
             {% assign licence = site.data.licences | find: "licence", page.licence %}
             {% assign division = site.data.divisions | find : "division", page.division %}
-            <img src = "{{ page.image-url }}" id = "">
+            <img src = "{{ page.image-url }}" id = "", width = 500>
             <p>{{ page.title }} in <a href = "{{ division.weburl }}">{{ page.division }}</a></p>
             <p>Built Time: {{ page.time }}</p>
             <p>Architectural Parameters: {{ page.para }}</p>
-            <p>Introduction: {{ page.intro }}</p>
+            <p>Introduction:<br> {{ page.intro }}</p>
+            <p>{{ page.intro2 }}</p>
             <p>Tag: {{ page.tags }}</p>
             <p><a href = "{{ licence.url }}">{{ page.licence }}</a></p>
         </div>
