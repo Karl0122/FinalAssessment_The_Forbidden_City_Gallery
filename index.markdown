@@ -1,6 +1,6 @@
 ---
-title: index
-layout: index
+title: HOME
+layout: HOME
 ---
 <div id = "gallery">
   {% assign sorted_exhibits = site.exhibits %}
