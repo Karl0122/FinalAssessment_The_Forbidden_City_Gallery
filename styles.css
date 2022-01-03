@@ -152,3 +152,59 @@ header {
 }
 
 .container{transform: translateY(70px);}
+
+#content {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 150px;
+}
+
+#content p {
+    font-size:15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#content .exhibit-img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#content .exhibit-title {
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-family:Arial;
+    text-align: center;
+}
+
+.close {
+    color: white;
+    background-color: rgba(124, 40, 40, 0.9);
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.close:hover {
+    opacity: .3;
+}
+
+#exhibit-footer {
+    margin: auto;
+    text-align: center;
+}
+
+#exhibit-footer p{
+    align-self: center;
+    font-size: 15px;
+}
