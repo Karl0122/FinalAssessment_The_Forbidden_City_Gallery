@@ -1,7 +1,7 @@
 ---
 title: The Hall of Central Harmony
-division: the three Halls of the Outer Court
-licence: Not Yet
+division: the Three Halls of the Outer Court
+licence: No Licence Yet
 licence-url: https://pic.baike.soso.com/ugc/baikepic2/2827/20201226202743-56128593_jpeg_750_680_50696.jpg/0
 image-url: https://upload.wikimedia.org/wikipedia/commons/c/ce/Flickr_-_archer10_%28Dennis%29_-_China-6177_%28cropped%29.jpg
 time: Ming dynasty & Qing dynasty

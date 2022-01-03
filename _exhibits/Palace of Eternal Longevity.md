@@ -1,7 +1,7 @@
 ---
 title: Palace of Eternal Longevity
 division: the Six Western Palaces
-licence: CC BY 2.0
+licence: No Licence Yet
 image-url: https://en.dpm.org.cn/d/file/collections/architecture/architecture/2020-04-13/6b8d1f899fcbc894c268001be591c477.jpg
 layout: exhibit
 tags: Palace of Eternal Longevity, Western, Chongzhen Emperor, wedding banquets for Princess, the closest palace to Yangxin hall, classified intelligence

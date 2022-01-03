@@ -1,7 +1,7 @@
 ---
 title: Palace of Eternal Spring
-division: one of the Six Western Palaces
-licence: CC BY 2.0
+division: the Six Western Palaces
+licence: No Licence Yet
 image-url: https://en.dpm.org.cn/files/image/8831/2007/2311/img0009[400PX].jpg
 layout: exhibit
 tags: Palace of Eternal Spring, Western, "Dream of the Red Chamber", Empress Dowager Cixi, opera stage, Suzhou-style frescos

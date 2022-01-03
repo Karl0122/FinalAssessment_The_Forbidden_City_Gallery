@@ -1,7 +1,7 @@
 ---
 title: The Hall of Preserving Harmony
-division: the three Halls of the Outer Court
-licence: Not Yet
+division: the Three Halls of the Outer Court
+licence: No Licence Yet
 licence-url: https://pic.baike.soso.com/ugc/baikepic2/2827/20201226202743-56128593_jpeg_750_680_50696.jpg/0
 image-url: https://img.dpm.org.cn/Uploads/Picture/2020/07/03/s5efedbf9edae0.jpg
 time: Ming dynasty & Qing dynasty

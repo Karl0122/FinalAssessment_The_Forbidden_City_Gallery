@@ -1,7 +1,7 @@
 ---
 title: The Hall of Supreme Harmony
-division: the three Halls of the Outer Court
-licence: Not Yet
+division: the Three Halls of the Outer Court
+licence: No Licence Yet
 licence-url: https://pic.baike.soso.com/ugc/baikepic2/2827/20201226202743-56128593_jpeg_750_680_50696.jpg/0
 image-url: https://upload.wikimedia.org/wikipedia/commons/8/82/The_Hall_of_Supreme_Harmony.jpg
 time: Ming dynasty & Qing dynasty
