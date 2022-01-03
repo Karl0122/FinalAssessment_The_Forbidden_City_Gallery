@@ -1,9 +1,7 @@
 
 
 body  {
-    background-image: url("./assets/bg2.png");
-    background-repeat:no-repeat;
-    background-size: 100%;
+    background: linear-gradient(135deg,#A84328,#712812);
     color: white;
 }
 
@@ -18,6 +16,7 @@ ul {
 }
 
 .navigation{ 
+    z-index: 1;
     background-color: rgba(0, 0, 0, 0.8);
     width:100%;
     height:50px;
@@ -87,19 +86,22 @@ header {
 }
 
 #footer {
-    margin: auto;
+    background-color: black;
+    padding-bottom: 1em;
+    padding-left: 10em;
     text-align: center;
 }
 
 #footer p {
-    font-size: small;
+    font-size: normal;
     align-self: center;
 }
 
 #gallery {
+    padding-left: 2em;
     margin: 0 auto;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 100px;
 }
 
 .grid_cell {
@@ -156,7 +158,7 @@ header {
 #content {
     margin-right: auto;
     margin-left: auto;
-    padding: 150px;
+    padding: 150px 150px 20px 150px;
 }
 
 #content p {
@@ -173,14 +175,29 @@ header {
 }
 
 #content .exhibit-title {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 2em;
     font-family:Arial;
     text-align: center;
 }
 
+#content .exhibit-division{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    font-family:Arial;
+    text-align: center;
+}
+
+#content .exhibit-division a:hover{
+    color: rgb(94, 14, 14);
+}
+
+
 .close {
+    margin-left: 10em;
     color: white;
+    width: 15%;
     background-color: rgba(124, 40, 40, 0.9);
     display: inline-block;
     margin-bottom: 0;
@@ -197,16 +214,6 @@ header {
 
 .close:hover {
     opacity: .3;
-}
-
-#exhibit-footer {
-    margin: auto;
-    text-align: center;
-}
-
-#exhibit-footer p{
-    align-self: center;
-    font-size: 15px;
 }
 
 
@@ -244,10 +251,6 @@ header {
     text-align: center;
     font-size: 18px;
     line-height: 30px;
-}
-
-#search-container {
-    align-items: center;
 }
 
 .about_text1 {

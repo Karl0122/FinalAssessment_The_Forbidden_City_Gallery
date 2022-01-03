@@ -11,7 +11,7 @@
         <div class="navigation">   
             <ul class="navvi">
                     <li class="logo"> The Forbbiden City </li>
-                    <li class="button"> <a href="{{ site.baseurl }}/index">Home</a></li>
+                    <li class="button"> <a href="{{ site.baseurl }}/HOME">Home</a></li>
                     <li class="button"> <a href="{{ site.baseurl }}/divisions">Divisions</a></li>
                     <li class="button"> <a href="{{ site.baseurl }}/search">Search</a></li>
                     <li class="button"> <a href="{{ site.baseurl }}/about">About</a></li>
@@ -23,19 +23,18 @@
             {% assign licence = site.data.licences | find: "licence", page.licence %}
             {% assign division = site.data.divisions | find : "division", page.division %}
             <img src = "{{ page.image-url }}" class="exhibit-img">
-            <p class="exhibit-title">{{ page.title }} in <a href = "{{ division.weburl }}">{{ page.division }}</a></p>
+            <p class="exhibit-title">{{ page.title }} </p>
+            <p class="exhibit-division">in <a href = "{{ division.weburl }}">{{ page.division }}</a></p>
             <p>Built Time: {{ page.time }}</p>
             <p>Architectural Parameters: {{ page.para }}</p>
-            <p>Introduction: {{ page.intro }}</p>
+            <p>Introduction: <br> {{ page.intro }} <br><br>{{ page.intro2 }}</p>
             <p>Tag: {{ page.tags }}</p>
             <p><a href = "{{ licence.url }}">{{ page.licence }}</a></p>
         </div>
 
-        <button type="btn" class="close">
-            <div class="x">X  close</div><a href="{{ site.baseurl }}/index"></a>
-        </button>
+        <button class="close"><a href="{{ site.baseurl }}/HOME">X  close</a> </button>
 
-    <div id = "exhibit-footer">
+    <div id = "footer" >
         <p>Created by Chenkai, Zhuoqun, Mengxin, Ruowei</p>
     </div>
 
