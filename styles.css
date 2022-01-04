@@ -324,7 +324,7 @@ header {
 
 .division-container {
     display: grid;
-    grid-template-columns: 30% 60%;
+    grid-template-columns: 45% 55%;
     grid-gap: 5px;
     padding: 10px;
   }
@@ -355,7 +355,7 @@ header {
   }
   
   .div-link:hover{
-      color: white;
+      color: rgb(26, 21, 21);
       text-decoration: underline;
   }
   
