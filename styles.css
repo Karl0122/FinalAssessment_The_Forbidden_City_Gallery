@@ -362,3 +362,43 @@ header {
   .divisiontext::after {
       filter: blur(4px);
   }
+
+
+.foot-container {
+    margin-top: 100px;
+    background-color: black;
+    padding-top: 20px;
+    display: flex;
+}
+.kcl-dept {
+    background-color: black;
+    float: left;
+    width: 55%;
+}
+.kcl-dept img {
+    float: left;
+    width: 150px;
+    padding: 0px 30px 30px 50px;
+}
+.kcl-dept h3 {
+    float: left;
+    font-size: 25px;
+    padding-top: 30px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.kcl-addy {
+    background-color: black;
+    float: right;
+    width: 45%;
+    text-align: right;
+}
+.kcl-addy p {
+    font-size: 20px;
+    padding: 40px 50px 0px 50px;
+    margin-bottom: 0;
+}
+.foot-container h3, .foot-container p {
+    color: ghostwhite;
+    font-family: 'Times New Roman', serif;
+}

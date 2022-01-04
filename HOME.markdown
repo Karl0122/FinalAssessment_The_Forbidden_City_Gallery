@@ -16,6 +16,14 @@ layout: HOME
 {% endfor %}
  
 </div>
- <div id = "footer">
-            <p>Creat by Chenkai, Zhuoqun, Mengxin, Ruowei</p>
-  </div>
+
+<div class="foot-container">
+                <div class="kcl-dept">
+                    <img src="/assets/kcl.jpg" alt="kcl-logo">
+                    <h3>Faculty of<br>Arts &amp; Humanities</h3>
+                </div>
+                <div class="kcl-addy">
+                    <p>Department of Digital Humanities<br>Strand Building, Strand, London WC2R 2LS<br>United Kingdom</p>
+                </div>
+            </div>
+
