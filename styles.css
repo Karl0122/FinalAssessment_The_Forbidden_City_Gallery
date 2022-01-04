@@ -171,9 +171,16 @@ header {
     margin-left: 120px;
     margin-bottom: 30px;
     padding: 30px 150px 30px 150px;
-    background-color: rgba(175, 171, 171, 0.411);
+    background: rgba(173, 173, 173, 0.25);
+    overflow: hidden;
     border-radius: 10px;
     transition:1.8s;
+}
+
+#cont::before{
+    content: '';
+    filter: blur(20px);
+    z-index: -1;
 }
 #cont p {
     font-size:17px;
@@ -293,21 +300,6 @@ header {
     line-height: 30px;
 }
 
-.about_text1 {
-    font-weight: 600;
-    text-shadow: 0.5px 0.5px 0 rgb(133, 132, 132),1px 1px 0 #333,1px 1px 0 #444;
-    text-align: center;
-    font-size: 22px;
-    color: black;
-    padding-top: 5px;
-}
-
-.about_text2 {
-    font-weight: bold;
-    color: rgb(24, 23, 23);
-    font-size: 18px;
-    padding-top: 5px;
-}
 
 .map{
     float:left;
@@ -362,3 +354,62 @@ header {
   .divisiontext::after {
       filter: blur(4px);
   }
+
+.about_text1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    padding-top:10px;
+    font-style: italic;
+
+}
+
+.about_text2 {
+    font-weight: bold;
+    color: rgb(24, 23, 23);
+    font-size: 18px;
+    padding: 20px 40px 20px 40px;
+    margin:-10px 260px -10px 260px;
+    text-align: justify; 
+    text-justify:inter-ideograph; 
+    line-height: 1.3;
+    border-radius: 5px;
+    background: rgba(173, 173, 173, 0.164);
+    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, .3);
+    overflow: hidden;
+    transition: 1s;
+}
+
+.about_text2::before{
+    content: '';
+    filter: blur(20px);
+    z-index: -1;
+}
+.about_text3 {
+    font-weight: bold;
+    color: rgb(24, 23, 23);
+    font-size: 18px;
+    padding: 20px 40px 20px 40px;
+    margin:-10px 260px -10px 260px;
+    text-align: justify; 
+    text-justify:inter-ideograph; 
+    line-height: 1.3;
+    border-radius: 5px;
+    background: rgba(173, 173, 173, 0.164);
+    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, .3);
+    overflow: hidden;
+    transition: 1s;
+}
+
+.about_text3::before{
+    content: '';
+    filter: blur(20px);
+    z-index: -1;
+}
+.about_text2:hover{
+    transform:scale(1.015);
+}
+.about_text3:hover{
+    transform:scale(1.015);
+}
