@@ -320,3 +320,45 @@ header {
     margin-right: 400px;
 
 }
+
+
+.division-container {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-gap: 5px;
+    padding: 10px;
+  }
+  
+  .division-container div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .div-name {
+      padding: 15px;
+      text-align: left;
+      font-size: 20px;
+      font-weight: 700;
+  }
+  
+  .div-intro {
+      padding: 15px;
+      text-align: left;
+      list-style-type: none;
+      font-size: 20px;
+  }
+  
+  .div-link {
+      text-decoration: none;
+      color: black;
+  }
+  
+  .div-link:hover{
+      color: white;
+      text-decoration: underline;
+  }
+  
+  .divisiontext::after {
+      filter: blur(4px);
+  }
