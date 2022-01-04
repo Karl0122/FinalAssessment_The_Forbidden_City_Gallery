@@ -2,6 +2,7 @@
 title: HOME
 layout: HOME
 ---
+
 <div id = "gallery">
   {% assign sorted_exhibits = site.exhibits %}
   {% for exhibit in sorted_exhibits %}
@@ -12,10 +13,10 @@ layout: HOME
       <p class = ""><a href = "{{exhibit.url | relative_url}}">{{ exhibit.title }}</a></p>
       <p><a href = "{{ division.weburl}}">{{ exhibit.division }}</a></p>
       <p class = "">{{ exhibit.time }}</p>
-</div>
     </div>
 {% endfor %}
-
+ 
+</div>
 
 <div id = "footer" >
     <p>Created by Chenkai, Zhuoqun, Mengxin, Ruowei</p>
