@@ -12,10 +12,12 @@ layout: HOME
       <p class = ""><a href = "{{exhibit.url | relative_url}}">{{ exhibit.title }}</a></p>
       <p><a href = "{{ division.weburl}}">{{ exhibit.division }}</a></p>
       <p class = "">{{ exhibit.time }}</p>
+</div>
     </div>
 {% endfor %}
-  <div id = "footer">
-            <p>Creat by Chenkai, Zhuoqun, Mengxin, Ruowei</p>
-  </div>
+
+
+<div id = "footer" >
+    <p>Created by Chenkai, Zhuoqun, Mengxin, Ruowei</p>
 </div>
 
