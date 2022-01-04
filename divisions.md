@@ -17,8 +17,8 @@ layout: index
     <li class="div-name"><a href="https://en.wikipedia.org/wiki/Forbidden_City#Six_Western_and_Six_Eastern_Palaces" class="div-link" target="_blank">the Six Eastern Palaces</a></li>
     <li class="div-intro">The East Sixth Palace, on the east side of the central axis of the Forbidden City, was used as a residence for the emperor's wives and concubines during the Ming and Qing dynasties, and as an imperial study and book collection during the Qing dynasty.</li>
     <li class="div-name"><a href="https://en.wikipedia.org/wiki/Gate_of_Divine_Prowess" class="div-link" target="_blank">the Northern Gate</a></li>
-    <li class="div-intro">The main gates of the Forbidden City, and now the only entrance to the Forbidden City for visitors, located on the north-south axis of the Forbidden City</li>
+    <li class="div-intro">This Gate is located in the middle of the northern city wall of the Forbidden City, sitting south and facing north. It is currently the main entrance to the Palace Museum.</li>
     <li class="div-name"><a href="https://en.wikipedia.org/wiki/Meridian_Gate" class="div-link" target="_blank">the Southern and Largest Gate</a></li>
-    <li class="div-intro">The main gates of the Forbidden City, and now the only entrance to the Forbidden City for visitors, located on the north-south axis of the Forbidden City</li>
+    <li class="div-intro">The main gates of the Forbidden City, and now the only entrance to the Forbidden City for visitors, located on the north-south axis of the Forbidden City.</li>
   </ul>
   </div>
