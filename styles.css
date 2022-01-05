@@ -355,7 +355,6 @@ header {
       filter: blur(4px);
   }
 
-<<<<<<< HEAD
 .about_text1 {
     font-weight: 700;
     text-align: center;
@@ -414,12 +413,13 @@ header {
 .about_text3:hover{
     transform:scale(1.015);
 }
-=======
 
 .foot-container {
-    margin-top: 100px;
+    width: 101.25%;
+    transform: translateX(-10px);
+    margin-top: 80px;
     background-color: black;
-    padding-top: 20px;
+    padding-top: 30px;
     display: flex;
 }
 .kcl-dept {
@@ -435,7 +435,7 @@ header {
 .kcl-dept h3 {
     float: left;
     font-size: 25px;
-    padding-top:20px;
+    padding-top: 30px;
     letter-spacing: 1px;
     font-weight: 700;
 }
@@ -447,11 +447,11 @@ header {
 }
 .kcl-addy p {
     font-size: 20px;
-    padding: 30px 50px 0px 50px;
+    padding: 20px 50px 0px 50px;
     margin-bottom: 0;
 }
 .foot-container h3, .foot-container p {
     color: ghostwhite;
     font-family: 'Times New Roman', serif;
 }
->>>>>>> 52a1b9211d82402b59870957872231dbe9a04690
+
