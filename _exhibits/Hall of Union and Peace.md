@@ -1,6 +1,6 @@
 ---
 title: Hall of Union
-division: the Back Three Palaces
+division: the Three Back Palaces
 licence: CC BY-SA 3.0
 licence-url: https://creativecommons.org/licenses/by-sa/3.0/deed.en
 image-url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/View_through_doorway_at_Forbidden_City_Inner_Court.jpg/800px-View_through_doorway_at_Forbidden_City_Inner_Court.jpg

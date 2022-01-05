@@ -1,6 +1,6 @@
 ---
 title: Palace of Earthly Tranquility
-division: the Back Three Palaces
+division: the Three Back Palaces
 licence: CC BY-SA 4.0
 licence-url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
 image-url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Palace_of_Earthly_Tranquility_20160826-2.jpg/799px-Palace_of_Earthly_Tranquility_20160826-2.jpg
