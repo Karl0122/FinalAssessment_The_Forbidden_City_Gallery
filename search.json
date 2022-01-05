@@ -7,7 +7,7 @@
       "title"    : "{{ exhibit.title }}",
       "url"      : "{{ site.baseurl }}{{ exhibit.url }}",
       "tags"     : "{{ exhibit.tags }}",
-      "licence"  : "{{ exhibit.licence }}",
+      "division" : "{{ exhibit.division }}",
       "time"     : "{{ exhibit.time }}"
 
     }{% unless forloop.last %},{% endunless %}
