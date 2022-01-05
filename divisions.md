@@ -5,7 +5,7 @@ layout: index
 
 
 <div class="division-container">
-  <div class="divisionmap"><img src="/assets/map.jpg" width="450px" height="900px"></div>
+  <div class="divisionmap"><img src="/assets/FB-white.png" width="450px" height="900px"></div>
   <div class="divisiontext">
   <ul>
   <li class="div-name"><a href="https://en.wikipedia.org/wiki/Forbidden_City#Outer_Court_or_the_Southern_Section" class="div-link" target="_blank">the Three Halls of the Outer Court</a></li>
