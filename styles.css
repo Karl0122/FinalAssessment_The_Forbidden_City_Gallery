@@ -146,6 +146,7 @@ header {
 }
 .line_title{
 	text-align: center;
+    color: rgb(199, 140, 53);
 	font-size: 34px;
 	line-height: 90px;
 }

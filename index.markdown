@@ -6,7 +6,7 @@ layout: HOME
 <!-- line one -->
 <div class="main_box">
 	<div class="line_title">
-		<span>Back Three Palaces1</span>
+		<span>the Three Back Palaces</span>
 	</div>
 	<div id = "gallery_line" class="gallery_line">
 	{% for exhibit in sorted_exhibits %}
@@ -28,7 +28,7 @@ layout: HOME
 <!-- line two -->
 <div class="main_box">
 	<div class="line_title">
-		<span>Outer Court2</span>
+		<span>the Three Halls of Outer Court</span>
 	</div>
 	<div id = "gallery_line" class="gallery_line">
 	{% for exhibit in sorted_exhibits %}
@@ -51,7 +51,7 @@ layout: HOME
 <!-- line three -->
 <div class="main_box">
 	<div class="line_title">
-		<span>Western Six Palaces3</span>
+		<span> Western Palaces</span>
 	</div>
 	<div id = "gallery_line" class="gallery_line">
 	{% for exhibit in sorted_exhibits %}
@@ -73,7 +73,7 @@ layout: HOME
 <!-- line four -->
 <div class="main_box">
 	<div class="line_title">
-		<span>Eastern Six Palaces4</span>
+		<span>the Six Eastern Palaces</span>
 	</div>
 	<div id = "gallery_line" class="gallery_line">
 	{% for exhibit in sorted_exhibits %}
@@ -95,7 +95,7 @@ layout: HOME
 <!-- line five -->
 <div class="main_box">
 	<div class="line_title">
-		<span>Gate5</span>
+		<span>Gates</span>
 	</div>
 	<div id = "gallery_line" class="gallery_line">
 	{% for exhibit in sorted_exhibits %}
