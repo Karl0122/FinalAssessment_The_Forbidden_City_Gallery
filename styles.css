@@ -102,34 +102,104 @@ header {
     padding: 3em 0em 2em 10em;
 }
 
+.grid_cell {
+    align-self: baseline;
+}
 #gallery {
     padding-left: 2em;
     margin: 0 auto;
     display: grid;
     grid-gap: 100px;
 }
-
+.gallery {
+    padding-left: 2em;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 100px;
+}
+.gallery_line{
+	margin: 0 auto;
+	display: grid;
+	grid-gap: 90px;
+}
+.exhibit_title{
+	font-weight: bold;
+	font-size: 20px;
+}
+.line_img_box{
+	width: 340px;
+	background: rgba(68,68,68,0.5) ;
+	display: inline-block;
+	position: relative;
+	top: -115px;
+	line-height: 25px;
+	height: 100px;
+	text-overflow: ellipsis;
+	/* white-space: nowrap; */
+	overflow: hidden;
+	padding: 0 10px;
+}
+.line_title{
+	text-align: center;
+	font-size: 34px;
+	line-height: 90px;
+}
+.line_box{
+	width: 360px;
+	margin: auto;
+}
 .grid_cell {
     align-self: baseline;
 }
 
 @media (min-width: 600px) {
-    #gallery { 
-        grid-template-columns: repeat(2, 275px); 
+    #gallery, { 
+        display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 10px;
+		text-align: center;
+		/* grid-template-columns: 1fr 1fr 1fr; */
+		/* grid-template-rows: 100% 100%; */
+		/* grid-row-gap: 15px; */
     }
+	.gallery_line {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 10px;
+		text-align: center;
+	}
   }
 
 @media (min-width: 900px) {
     #gallery { 
-        grid-template-columns: repeat(3, 275px); 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        text-align: center;
     }
+	.gallery_line {
+	   display: grid;
+	   grid-template-columns: repeat(3, 1fr);
+	   grid-column-gap: 10px;
+	   text-align: center;
+	}
   }
 
 @media (min-width: 1200px) {
     #gallery { 
-        grid-template-columns: repeat(4, 275px); 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        text-align: center;
     }
+	.gallery_line {
+	   display: grid;
+	   grid-template-columns: repeat(3, 1fr);
+	   grid-column-gap: 10px;
+	   text-align: center;
+	}
   }
+
 
 .gallery_thumb {
     width: 250px;
