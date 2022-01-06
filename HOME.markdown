@@ -2,28 +2,119 @@
 title: HOME
 layout: HOME
 ---
-<div id = "gallery">
-  {% assign sorted_exhibits = site.exhibits %}
-  {% for exhibit in sorted_exhibits %}
-    {% assign licence_url = site.data.licences | find: "licence", exhibit.licence %}
-    {% assign division = site.data.divisions | find: "division", exhibit.division %}
-    <div class = "">
-      <a href = "{{ exhibit.url | relative_url }}"><img src="{{ exhibit.image-url }}" width = 250></a>
-      <p class = ""><a href = "{{exhibit.url | relative_url}}">{{ exhibit.title }}</a></p>
-      <p><a href = "{{ division.weburl}}">{{ exhibit.division }}</a></p>
-      <p class = "">{{ exhibit.time }}</p>
-    </div>
-{% endfor %}
- 
+{% assign sorted_exhibits = site.exhibits %}
+<!-- line one -->
+<div class="main_box">
+	<div class="line_title">
+		<span>Back Three Palaces1</span>
+	</div>
+	<div id = "gallery_line" class="gallery_line">
+	{% for exhibit in sorted_exhibits %}
+		{% assign licence_url = site.data.licences | find: "licence", exhibit.licence %}
+		{% assign division = site.data.divisions | find: "division", exhibit.division %}
+		{% if exhibit.lineType == 'lineOne' %}
+			<div class = "line_box">
+			  <a href = "{{ exhibit.url | relative_url }}"><img src="{{ exhibit.image-url }}" width = 360 height = 270></a>
+			  <p title="{{ exhibit.title }}" class = "line_img_box"><a href = "{{exhibit.url | relative_url}}">
+				<span class="exhibit_title ">{{ exhibit.title }}</span>
+				<br>
+				<span >{{ exhibit.time }}</span>
+			  </a></p>
+			</div>
+		{% endif %}
+	{% endfor %}
+	</div>
+</div>
+<!-- line two -->
+<div class="main_box">
+	<div class="line_title">
+		<span>Outer Court2</span>
+	</div>
+	<div id = "gallery_line" class="gallery_line">
+	{% for exhibit in sorted_exhibits %}
+		{% assign licence_url = site.data.licences | find: "licence", exhibit.licence %}
+		{% assign division = site.data.divisions | find: "division", exhibit.division %}
+		{% if exhibit.lineType == 'lineTwo' %}
+			<div class = "line_box">
+			  <a href = "{{ exhibit.url | relative_url }}"><img src="{{ exhibit.image-url }}" width = 360 height = 270></a>
+			  <p title="{{ exhibit.title }}" class = "line_img_box"><a href = "{{exhibit.url | relative_url}}">
+				<span class="exhibit_title ">{{ exhibit.title }}</span>
+				<br>
+				<span >{{ exhibit.time }}</span>
+			  </a></p>
+			  
+			</div>
+		{% endif %}
+	{% endfor %}
+	</div>
+</div>
+<!-- line three -->
+<div class="main_box">
+	<div class="line_title">
+		<span>Western Six Palaces3</span>
+	</div>
+	<div id = "gallery_line" class="gallery_line">
+	{% for exhibit in sorted_exhibits %}
+		{% assign licence_url = site.data.licences | find: "licence", exhibit.licence %}
+		{% assign division = site.data.divisions | find: "division", exhibit.division %}
+		{% if exhibit.lineType == 'lineThree' %}
+			<div class = "line_box">
+			  <a href = "{{ exhibit.url | relative_url }}"><img src="{{ exhibit.image-url }}" width = 360 height = 270></a>
+			  <p title="{{ exhibit.title }}" class = "line_img_box"><a href = "{{exhibit.url | relative_url}}">
+				<span class="exhibit_title ">{{ exhibit.title }}</span>
+				<br>
+				<span >{{ exhibit.time }}</span>
+			  </a></p>
+			</div>
+		{% endif %}
+	{% endfor %}
+	</div>
+</div>
+<!-- line four -->
+<div class="main_box">
+	<div class="line_title">
+		<span>Eastern Six Palaces4</span>
+	</div>
+	<div id = "gallery_line" class="gallery_line">
+	{% for exhibit in sorted_exhibits %}
+		{% assign licence_url = site.data.licences | find: "licence", exhibit.licence %}
+		{% assign division = site.data.divisions | find: "division", exhibit.division %}
+		{% if exhibit.lineType == 'lineFour' %}
+			<div class = "line_box">
+			  <a href = "{{ exhibit.url | relative_url }}"><img src="{{ exhibit.image-url }}" width = 360 height = 270></a>
+			  <p title="{{ exhibit.title }}" class = "line_img_box"><a href = "{{exhibit.url | relative_url}}">
+				<span class="exhibit_title ">{{ exhibit.title }}</span>
+				<br>
+				<span >{{ exhibit.time }}</span>
+			  </a></p>
+			</div>
+		{% endif %}
+	{% endfor %}
+	</div>
+</div>
+<!-- line five -->
+<div class="main_box">
+	<div class="line_title">
+		<span>Gate5</span>
+	</div>
+	<div id = "gallery_line" class="gallery_line">
+	{% for exhibit in sorted_exhibits %}
+		{% assign licence_url = site.data.licences | find: "licence", exhibit.licence %}
+		{% assign division = site.data.divisions | find: "division", exhibit.division %}
+		{% if exhibit.lineType == 'lineFive' %}
+			<div class = "line_box">
+			  <a href = "{{ exhibit.url | relative_url }}"><img src="{{ exhibit.image-url }}" width = 360 height = 270></a>
+			  <p title="{{ exhibit.title }}" class = "line_img_box"><a href = "{{exhibit.url | relative_url}}">
+				<span class="exhibit_title ">{{ exhibit.title }}</span>
+				<br>
+				<span >{{ exhibit.time }}</span>
+			  </a></p>
+			</div>
+		{% endif %}
+	{% endfor %}
+	</div>
 </div>
 
-<div class="foot-container">
-                <div class="kcl-dept">
-                    <img src="/assets/kcl.jpg" alt="kcl-logo">
-                    <h3>Faculty of<br>Arts &amp; Humanities</h3>
-                </div>
-                <div class="kcl-addy">
-                    <p>Department of Digital Humanities<br>Strand Building, Strand, London WC2R 2LS<br>United Kingdom</p>
-                </div>
-            </div>
-
+<div id = "footer">
+	<p>Creat by Chenkai, Zhuoqun, Mengxin, Ruowei</p>
+</div>
